@@ -29,6 +29,7 @@
                 
                     
                        <td><label for="id" name="id"><?php echo $user['id']; ?></label></td>
+                      
                         <td><input required type="text" class="form-control" name="firstname" value="<?php echo $user['firstname']; ?>"></td>
                       <td><input required type="text" class="form-control" name="lastname" value="<?php echo $user['lastname']; ?>"></td>
                       <td><input required type="text" class="form-control" name="age" value="<?php echo $user['age']; ?>"></td>
